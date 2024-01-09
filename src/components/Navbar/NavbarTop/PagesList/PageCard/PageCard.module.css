@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  width: 176px;
+  height: 20px;
+  padding: 8px 16px;
+  align-items: center;
+  gap: 12px;
+}
+
+.pageCardTitle {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+}
+
+.wrapper:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+.wrapper:hover .pageCardTitle {
+  opacity: 1; /* Change opacity on hover */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

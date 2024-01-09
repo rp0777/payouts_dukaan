@@ -1,5 +1,10 @@
 .wrapper {
-  min-width: 224px;
-  height: 882px;
-  border: 1px solid black;
+  min-width: 204px;
+  height: 850px;
+  padding: 16px 10px;
+  background-color: #1e2640;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
